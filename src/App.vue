@@ -1,32 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    <div>
+      <svg-icon id="icon-vuejs" style="font-size:180px;"></svg-icon>
+      <h2>Vue Icon component by iconfont</h2>
+    </div>
+    <div>
+      <div style="font-size:36px;"><svg-icon id=""></svg-icon>SvgIcon</div>           
+      <div><svg-icon id="icon-vuejs"></svg-icon>SvgIcon</div>
+      <div style="font-size:36px;"><font-icon id="icon-vuejs"></font-icon>FontIcon </div>
+      <div><font-icon id="icon-vuejs"></font-icon>FontIcon </div>
+      <div style="color:#42b983;"><font-icon id="icon-vuejs"></font-icon>FontIcon whit color</div>
+      <div style="color:red;"><font-icon id="icon-vuejs"></font-icon>FontIcon whit color</div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <small style="color:#333">Powered by <a target="_blank" href="https://vuejs.org/">https://vuejs.org/</a> & <a target="_blank" href="http://www.iconfont.cn/">http://www.iconfont.cn/</a></small>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
+  name: 'app'
 }
 </script>
 
