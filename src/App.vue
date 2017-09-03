@@ -5,7 +5,7 @@
       <h2>Vue Icon component by iconfont</h2>
     </div>
     <div>
-      <div style="font-size:36px;"><svg-icon id=""></svg-icon>SvgIcon</div>           
+      <div style="font-size:36px;"><svg-icon id="icon-vuejs"></svg-icon>SvgIcon</div>           
       <div><svg-icon id="icon-vuejs"></svg-icon>SvgIcon</div>
       <div style="font-size:36px;"><font-icon id="icon-vuejs"></font-icon>FontIcon </div>
       <div><font-icon id="icon-vuejs"></font-icon>FontIcon </div>
