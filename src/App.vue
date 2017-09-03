@@ -15,6 +15,8 @@
     <br/>
     <br/>
     <br/>
+    <a href="https://github.com/zhuoqi-chen/vue-iconfont" ><font-icon id="icon-github" style="font-size:36px;"></font-icon></a>
+    <br/>
     <small style="color:#333">Powered by <a target="_blank" href="https://vuejs.org/">https://vuejs.org/</a> & <a target="_blank" href="http://www.iconfont.cn/">http://www.iconfont.cn/</a></small>
   </div>
 </template>
@@ -51,5 +53,6 @@ li {
 
 a {
   color: #42b983;
+  text-decoration: none;
 }
 </style>
