@@ -129,7 +129,7 @@ new Vue({
 ## font-icon和svg-icon区别
 
 | aa | font-icon | svg-icon |
-| :------------- | :------------- |
+| :------------- | :------------- |:------------- |
 | 颜色 | 单色 |多色 |
 | 大小控制 | font-size |font-size |
 | 颜色控制 | color |color |
